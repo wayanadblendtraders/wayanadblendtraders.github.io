@@ -106,15 +106,17 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    color: #ffd700;  /* Golden color */
-    font-size: 1.8rem;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: #ffd700;
 }
 
 .logo img {
     height: 40px;
-    width: auto;
+    width: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    max-height: 40px;
+    max-width: 40px;
+    object-fit: cover;
     border-radius: 50%;
     border: 2px solid #ffd700;
 }
@@ -257,6 +259,11 @@
     
     .logo img {
         height: 30px;
+        width: 30px;
+        min-height: 30px;
+        min-width: 30px;
+        max-height: 30px;
+        max-width: 30px;
     }
     
     .hero h1 {
